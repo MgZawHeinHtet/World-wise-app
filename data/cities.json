@@ -1,123 +1,39 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🏳️‍🌈",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "id": "e4bb",
+      "cityName": "Anarak",
+      "country": "Iran (Islamic Republic of)",
+      "date": "2024-05-19T06:58:28.153Z",
+      "notes": "fk this shit",
+      "emoji": "🇮🇷",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
-      "id": "0031",
-      "cityName": "Kropyvnytskyy",
-      "country": "Ukraine",
-      "date": "2024-05-18T06:00:18.311Z",
-      "notes": "fkf in there",
-      "emoji": "🇺🇦",
-      "position": {
-        "lat": "48.33115517487935",
-        "lng": "31.992187500000004"
+        "lat": "34.02846587700231",
+        "lng": "53.01916122436524"
       }
     },
     {
-      "id": "ffb9",
+      "id": "7d8a",
+      "cityName": "Anarak",
+      "country": "Iran (Islamic Republic of)",
+      "date": "2024-05-19T06:58:36.647Z",
+      "notes": "this is nice",
+      "emoji": "🇮🇷",
+      "position": {
+        "lat": "34.05862191436969",
+        "lng": "53.029804229736335"
+      }
+    },
+    {
+      "id": "fbed",
       "cityName": "Hmawbi",
       "country": "Myanmar",
-      "date": "2024-05-18T06:03:36.590Z",
-      "notes": "this is the palce I used to live",
+      "date": "2024-05-19T06:58:51.057Z",
+      "notes": "shit",
       "emoji": "🇲🇲",
       "position": {
-        "lat": "17.101712808607804",
-        "lng": "96.09518051147462"
-      }
-    },
-    {
-      "id": "9ed5",
-      "cityName": "Hmawbi",
-      "country": "Myanmar",
-      "date": "2024-05-18T11:14:10.612Z",
-      "notes": "I was riding in there",
-      "emoji": "🇲🇲",
-      "position": {
-        "lat": "17.131086462498892",
-        "lng": "96.064453125"
-      }
-    },
-    {
-      "id": "9a17",
-      "cityName": "Hmawbi",
-      "country": "Myanmar",
-      "date": "2024-05-18T11:14:40.589Z",
-      "notes": "",
-      "emoji": "🇲🇲",
-      "position": {
-        "lat": "17.131086462498892",
-        "lng": "96.064453125"
-      }
-    },
-    {
-      "id": "ff29",
-      "cityName": "Pyay",
-      "country": "Myanmar",
-      "date": "2024-05-18T11:15:10.639Z",
-      "notes": "I was visited last few month ago",
-      "emoji": "🇲🇲",
-      "position": {
-        "lat": "18.807730896459447",
-        "lng": "95.22056579589844"
-      }
-    },
-    {
-      "id": "17ba",
-      "cityName": "San Ignacio de Velasco",
-      "country": "Bolivia (Plurinational State of)",
-      "date": "2024-05-18T11:17:20.452Z",
-      "notes": "going",
-      "emoji": "🇧🇴",
-      "position": {
-        "lat": "-15.438552411267558",
-        "lng": "-60.46875000000001"
-      }
-    },
-    {
-      "id": "b499",
-      "cityName": "Susuman",
-      "country": "Russian Federation (the)",
-      "date": "2024-05-18T11:19:48.472Z",
-      "notes": "",
-      "emoji": "🇷🇺",
-      "position": {
-        "lat": "64.10637357064142",
-        "lng": "150.46875000000003"
-      }
-    },
-    {
-      "id": "5e55",
-      "cityName": "Ilulissat",
-      "country": "Greenland",
-      "date": "2024-05-18T11:20:07.954Z",
-      "notes": "",
-      "emoji": "🇬🇱",
-      "position": {
-        "lat": "74.93142109577059",
-        "lng": "-47.81250000000001"
+        "lat": "17.112874517035443",
+        "lng": "96.04454040527344"
       }
     }
   ]
