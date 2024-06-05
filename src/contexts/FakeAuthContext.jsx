@@ -6,6 +6,7 @@ const initialState = {
   user: null,
   isAuthenticated: false,
 };
+
 function reducer(state, action) {
   switch (action.type) {
     case "login":
@@ -38,6 +39,7 @@ function AuthProvider({ children }) {
   function logout() {
     dispatch({type : 'logout'})
   }
+  
   return (
     <AuthContext.Provider value={{ login,logout,isAuthenticated,user }}>{children}</AuthContext.Provider>
   );

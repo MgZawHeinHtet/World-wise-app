@@ -23,7 +23,7 @@ function City() {
   useEffect(function(){
     if(currentCity.id === id) return;
     getCity(id)
-  },[id])
+  },[id,getCity])
 
 
   const { cityName, emoji, date, notes } = currentCity;

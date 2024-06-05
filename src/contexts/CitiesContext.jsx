@@ -1,7 +1,9 @@
 import {
   createContext,
+  useCallback,
   useContext,
   useEffect,
+  useMemo,
   useReducer,
   useState,
 } from "react";
@@ -36,7 +38,7 @@ function reducer(state, action) {
       return {
         ...state,
         isLoading: false,
-        cities: state.cities.filter((city) =>  city.id !== action.payload),
+        cities: state.cities.filter((city) => city.id !== action.payload),
       };
     case "rejected":
       return {
@@ -50,7 +52,7 @@ function reducer(state, action) {
 }
 
 function CitiesProvider({ children }) {
-  const [{ cities, isLoading, currentCity,error }, dispatch] = useReducer(
+  const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(
     reducer,
     initalValue
   );
@@ -70,7 +72,8 @@ function CitiesProvider({ children }) {
     fetchCities();
   }, []);
 
-  async function getCity(id) {
+  const getCity = useCallback(async function getCity(id) {
+    if(Number(id)=== currentCity.id) return
     dispatch({ type: "loading" });
     try {
       const res = await fetch(`${BASE_URL}/cities/${id}`);
@@ -80,7 +83,7 @@ function CitiesProvider({ children }) {
     } catch (error) {
       dispatch({ type: "rejected", payload: error.message });
     }
-  }
+  }, [currentCity.id])
 
   async function createCity(newCity) {
     dispatch({ type: "loading" });
@@ -94,7 +97,7 @@ function CitiesProvider({ children }) {
         },
       });
       const data = await res.json();
-      
+
       // console.log(data);
       dispatch({ type: "city/created", payload: data });
     } catch (error) {
